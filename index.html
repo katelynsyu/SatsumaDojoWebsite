@@ -1,1 +1,105 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+<!-- Info about the page. Not Seen -->
+
+<!-- Call CSS -->
+    <link
+    rel = "stylesheet"
+    href = "KarateStyle.css">
+    <link
+    rel="stylesheet"
+    href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <meta charset="utf-8">
+    <title>Satsuma Dojo Website</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+<!-- Stuff that's seen on the page -->
+
+<!-- call Java Script -->
+    <script src = "KarateScript.js"> </script>
+
+<!-- Nav Bar -->
+    <ul>
+      <li><h id = "navBar">Satsuma Dojo</h></li>
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="news.asp">Class Times</a></li>
+      <li><a href="contact.asp">Senseis</a></li>
+      <li><a href="about.asp">News</a></li>
+    </ul>
+
+<!-- Carousel -->
+    <div class="center-div">
+      <div class="w3-content w3-display-container">
+        <img class="mySlides" src="Karate.jpeg" style="width:70%">
+        <img class="mySlides" src="http://www.satsumadojo.com/wp-content/uploads/2017/02/16819197_10209017716748565_8190358653509678909_o-904x500.jpg" style="width:70%">
+        <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbJMmoDtVxnfSm2Ob5EDzPkoXTvBlSjiPsOVawDQv5O42p-dNVA" style="width:70%">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/-OkLAq1ZwiUQ/V42ztBfWywI/AAAAAAAATaU/gHlmRKJFBRQrtVxjpp9mSJBCtWeVTeUXQ/w800-h800/_DSC0440_Bascis.jpg" style="width:70%">
+        <img class="mySlides" src="https://c1.staticflickr.com/7/6170/6188271320_64d0001fb0_b.jpg" style="width:70%">
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:70%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+        </div>
+      </div>
+    </div>
+
+<!-- Location -->
+    <div style = "float:left;" padding = "10px">
+      <strong>
+        <a href = "https://www.google.com/maps/dir/37.3997631,-122.0190093/785+Morse+Ave,+Sunnyvale,+CA+94085/@37.3948535,-122.0888755,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808fb64b1b13bdcf:0x1a07a68296f9d3dc!2m2!1d-122.0188355!2d37.3948742?hl=en"
+          target = "_blank">
+          Location:</a> </strong>
+          <p id = "location"> 785 Morse Ave, Sunnyvale, CA 94085</p>
+
+    </div>
+    <div style = "float:right;" padding = "1000px">
+      <img src = "SatsumaDojo.png" width = "150px" height = "500px">
+    </div>
+    <div style = "float:left;" padding = "10px">
+      <h2>
+        Introduction
+      </h2>
+      Satsuma Dojo focusses on teaching traditional karate. This includes an emphasis on etiquette, goal attainment, and personal development which we believe lends to a way of life: karatedo.
+      Though we focuss on Shotokan karate, we also teach Shoriniji-ryu. This traditional training in two different styles of karate simultaneously is exeedingly difficult to find.
+      We also have the rare privilege to be a part of both SKIF-USA and SKIF-USF organizations.
+    <div>
+      <h2>
+        Class Times:
+      </h2>
+      <br> <h3> General Class: </h3> </br>
+      <li> <em>Tuesday:</em>		7 - 8 PM </li>
+      <li> <em>Saturday:</em>		10 AM - 12:30 PM </li>
+
+      <br> <h3> Advanced Class: </h3> </br>
+      <li> <em>Tuesday:</em>		8:30 - 9:30 PM </li>
+      <li> <em>Thursday:</em>		7:15 - 8:45 PM </li>
+      <li> <em>Saturday:</em>		8 - 10 AM </li>
+    </div>
+    <div>
+      <h2>
+        Our Sensei:
+      </h2>
+      <p> <strong> Sensei Jay Castellano </strong> is the 7th degree black
+        belt head of our dojo. </p>
+      <p> <strong> Sensei Stuart Sakai </strong> is 5th degree black belt. </p>
+      <p> <strong> Sensei Steve Lucchesi </strong> is 5th degree black belt. </p>
+    </div>
+    <div>
+      <button type = "button" onclick = "window.location.href = 'http://www.satsumadojo.com/'"> Satsuma Dojo Website Home </button>
+      <button type = "button" onclick = "window.location.href = 'https://m.facebook.com/Satsuma-Karate-Dojo-143592729058381/'" target = "_blank">Satsuma Dojo Facebook Page </button>
+      <button type = "button" onclick = "window.location.href = 'http://totallydogtraining.com/wp-content/uploads/2018/01/cute-puppy-names3.jpg'" target = "_blank">More Important Stuff</button>
+    </div>
+  </body>
+
+</html>
