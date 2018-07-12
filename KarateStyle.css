@@ -1,0 +1,72 @@
+ul{
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111
+}
+
+h1{
+  color: red;
+  font-size: 100px;
+}
+
+#location {
+  color: blue;
+}
+
+#navBar{
+  color: red;
+  font-size: 70px;
+  font-family: "Georgia", Georgia, serif;
+}
+
+body{
+  background-color: #e6f5ff;
+}
+
+h2 {
+  color: #006622;
+}
+
+button{
+  background-color: #d1e0e0;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #f0f5f5;
+}
+
+/* carousel */
+.mySlides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.w3-display-container {align-content: center}
+.w3-display-bottommiddle {left:50%}
+.center-div{
+  margin: 0 auto;
+  width: 700px;
+}
